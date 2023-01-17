@@ -3,7 +3,7 @@ import pandas as pd
 import pickle
 import numpy as np
 
-loaded_model = pickle.load(open('D:/prueba/src/modelo_diabetes.sav', 'rb'))
+loaded_model = pickle.load(open('src/modelo_diabetes.sav', 'rb'))
 
 
 
