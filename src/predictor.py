@@ -2,7 +2,7 @@ import numpy as np
 import pickle
 
 
-loaded_model = pickle.load(open('D:/prueba/src/modelo_diabetes.sav', 'rb'))
+loaded_model = pickle.load(open('src/modelo_diabetes.sav', 'rb'))
 
 
 input_data = (5,166,72,19,175,25.8,0.587,51)
